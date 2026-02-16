@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Vercel
+.vercel/
+
+# Large source files (these will be on DigitalOcean Spaces)
+# Uncomment if you move Unity build to CDN:
+# parabolic-pets/Build/ParabolicPets-Build.data
+# parabolic-pets/Build/ParabolicPets-Build.data.gz
+# parabolic-pets/Build/ParabolicPets-Build.wasm
+# parabolic-pets/Build/ParabolicPets-Build.wasm.gz
+
+# Remove .mov files (we only need .mp4)
+*.mov
